@@ -1,0 +1,119 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ff4821;
+    /* width: 100vw; */
+    position: fixed;
+    width: 100vw;
+    box-shadow: 2px 2px 2px #8f8f8f;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+nav ul li {
+    padding: 1em;
+    list-style-type: none;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.nav-links:hover {
+    color: #525252;
+}
+
+/* 
+selector { declaration
+    property: value;
+    property: value;
+}
+*/
+
+/*
+Margin vs Padding
+
+- Margin is the space between the element itself and what is outside of it.
+    - Our navbar's margin is between it and the viewport of the browser.
+- Padding is the space between the element itself and the contents nested inside of it.
+    - Our navbar's padding is between it and the unordered list items.
+ */
+
+header h1 {
+    padding-top: 50px;
+    font-size: 220px;
+    background-color:#f0f0f0;
+}
+
+#html {
+    background-color: #ff4821;
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#html5-picture {
+    float: right;
+}
+
+#css {
+    background-color: #f0f0f0;
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#css3-picture {
+    width: 10em;
+    height: 10em;
+    float: right;
+}
+
+.css-paragraph {
+    display: flex;
+    align-items: center;
+}
+
+.paragraphs {
+    justify-content: flex-start;
+}
+
+#contact-form {
+    background-color: #b3b3b3;
+    padding: 1em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+.my-footer {
+    background-color: #ff4821;
+    padding: 3em;
+}
+
+footer h5 {
+    text-align: center;
+}
